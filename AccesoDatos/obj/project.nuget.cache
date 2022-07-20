@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "ilu9uH3aHHzguf13omY5axrsKI+o8uCIJoR4J0M87lKRE5tq07rnf6L4xA79BHbJ8K39mFFZl4n8/9PGVk3uAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rvazquez\\source\\repos\\ApiTransfer\\AccesoDatos\\AccesoDatos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rvazquez\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.1.2\\fluentvalidation.aspnetcore.11.1.2.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.1.0\\fluentvalidation.dependencyinjectionextensions.11.1.0.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\npgsql\\6.0.5\\npgsql.6.0.5.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\swashbuckle.aspnetcore\\6.3.1\\swashbuckle.aspnetcore.6.3.1.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.1\\swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.3.1\\swashbuckle.aspnetcore.swaggergen.6.3.1.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.3.1\\swashbuckle.aspnetcore.swaggerui.6.3.1.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\rvazquez\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
