@@ -1,0 +1,18 @@
+-- Table: public.banco
+
+-- DROP TABLE IF EXISTS public.banco;
+
+CREATE TABLE IF NOT EXISTS public.banco
+(
+    cod_banco character varying COLLATE pg_catalog."default" NOT NULL,
+    nombre_banco character varying(50) COLLATE pg_catalog."default",
+    direccion character varying(50) COLLATE pg_catalog."default",
+    CONSTRAINT banco_pkey PRIMARY KEY (cod_banco)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.banco
+    OWNER to postgres;

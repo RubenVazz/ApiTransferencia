@@ -1,0 +1,29 @@
+-- Table: public.transferencias
+
+-- DROP TABLE IF EXISTS public.transferencias;
+
+CREATE TABLE IF NOT EXISTS public.transferencias
+(
+    id_transaccion character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    num_cta character varying(10) COLLATE pg_catalog."default",
+    cedula character varying(10) COLLATE pg_catalog."default",
+    fecha date,
+    monto numeric,
+    estado character varying COLLATE pg_catalog."default",
+    CONSTRAINT transferencias_pkey PRIMARY KEY (id_transaccion),
+    CONSTRAINT transferencias_cedula_fkey FOREIGN KEY (cedula)
+        REFERENCES public.cliente (cedula) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT transferencias_num_cta_fkey FOREIGN KEY (num_cta)
+        REFERENCES public.cuenta (num_cta) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.transferencias
+    OWNER to postgres;

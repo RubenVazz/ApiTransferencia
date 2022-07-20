@@ -1,0 +1,31 @@
+-- Table: public.cuenta
+
+-- DROP TABLE IF EXISTS public.cuenta;
+
+CREATE TABLE IF NOT EXISTS public.cuenta
+(
+    id_cuenta character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    num_cta character varying(10) COLLATE pg_catalog."default",
+    moneda character varying(3) COLLATE pg_catalog."default",
+    cedula character varying(10) COLLATE pg_catalog."default",
+    saldo numeric,
+    cod_banco character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT cuenta_pkey PRIMARY KEY (id_cuenta),
+    CONSTRAINT constraint_unique UNIQUE (num_cta),
+    CONSTRAINT cuenta_cedula_fkey FOREIGN KEY (cedula)
+        REFERENCES public.cliente (cedula) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT cuenta_cod_banco_fkey FOREIGN KEY (cod_banco)
+        REFERENCES public.banco (cod_banco) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+        NOT VALID
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.cuenta
+    OWNER to postgres;
